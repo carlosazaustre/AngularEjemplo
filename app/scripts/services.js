@@ -4,7 +4,7 @@
 	'use strict';
 	angular
 		.module('blog.services',['ngResource'])
-		.contant('BaseUrl','http://jsonplaceholder.typicode.com');
+		.constant('BaseUrl','http://jsonplaceholder.typicode.com');
 		
 
 	/* @ngInject */
